@@ -27,7 +27,6 @@ public class PluginDoNotDisturbMode extends CordovaPlugin {
         this.cordovaInterface = cordova;
         this.cordovaWebView = webView;
         notificationManager = (NotificationManager) cordovaInterface.getActivity().getSystemService(Context.NOTIFICATION_SERVICE);
-        //requestPermission();
     }
 
     @Override

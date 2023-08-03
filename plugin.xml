@@ -11,7 +11,7 @@
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="PluginDoNotDisturbMode">
-				<param name="android-package" value="com.ccervantesb.cordova.dnd.mode" />
+				<param name="android-package" value="com.ccervantesb.cordova.dnd.mode.PluginDoNotDisturbMode" />
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml">

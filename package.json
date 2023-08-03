@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-dnd-mode",
+  "version": "1.0.0",
+  "description": "This plugin allows check status and enable/disable the Do Not Disturb Mode",
+  "cordova": {
+    "id": "com.ccervantesb.dnd_mode",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarcervantesb/cordova-plugin-dnd-mode.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "ccervantesb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarcervantesb/cordova-plugin-dnd-mode/issues"
+  },
+  "homepage": "https://github.com/cesarcervantesb/cordova-plugin-dnd-mode#readme"
+}

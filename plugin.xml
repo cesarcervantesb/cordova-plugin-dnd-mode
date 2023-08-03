@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-dnd-mode" version="1.0.0"
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>PluginDoNotDisturbMode</name>
+	<js-module name="dndMode" src="www/cordova-plugin-dnd-mode.js">
+		<clobbers target="cordova.plugins.dndMode" />
+		<clobbers target="plugin.dndMode" />
+		<clobbers target="dndMode" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="PluginDoNotDisturbMode">
+				<param name="android-package" value="com.ccervantesb.cordova.dnd.mode" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml">
+			<uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+		</config-file>
+		<source-file src="src/android/PluginDoNotDisturbMode.java" target-dir="src/com/ccervantesb/cordova/dnd/mode" />
+	</platform>
+</plugin>

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This plugin allows check status and enable/disable the Do Not Disturb Mode",
   "cordova": {
-    "id": "com.ccervantesb.dnd_mode",
+    "id": "cordova-plugin-dnd-mode",
     "platforms": [
       "android"
     ]

@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-dnd-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This plugin allows check status and enable/disable the Do Not Disturb Mode",
   "cordova": {
     "id": "cordova-plugin-dnd-mode",

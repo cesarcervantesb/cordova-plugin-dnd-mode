@@ -4,10 +4,13 @@ module.exports = {
     toggleDNDMode: function(successCallback, errorCallback){
         exec(successCallback, errorCallback, 'PluginDoNotDisturbMode', 'toggleDNDMode', []);
     },
-    checkDNDMode: function(successCallback){
-        exec(successCallback, null, 'PluginDoNotDisturbMode', 'checkDNDMode', []);
+    checkDNDMode: function(successCallback, errorCallback){
+        exec(successCallback, errorCallback, 'PluginDoNotDisturbMode', 'checkDNDMode', []);
     },
-    requestPermission: function(){
-        exec(null, null, 'PluginDoNotDisturbMode', 'requestPermission', []);
+    enableDNDMode: function(successCallback, errorCallback){
+        exec(successCallback, errorCallback, 'PluginDoNotDisturbMode', 'enableDNDMode', []);
+    },
+    disableDNDMode: function(successCallback, errorCallback){
+        exec(successCallback, errorCallback, 'PluginDoNotDisturbMode', 'disableDNDMode', []);
     }
 }
